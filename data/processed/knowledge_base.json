@@ -1,0 +1,54 @@
+{
+  "project": "NASA SpaceMind",
+  "version": "1.0",
+  "documents": [
+    {
+      "id": "mars_pathfinder_001",
+      "entity": "Mars Pathfinder",
+      "category": "mission_overview",
+      "celestial_body": "Mars",
+      "content": "Mars Pathfinder was a NASA mission that landed on Mars on July 4, 1997. It included the Carl Sagan Memorial Station lander and the Sojourner rover. Its goals included testing a low-cost landing system and studying the Martian atmosphere, weather, and geology. The last transmission was received on September 27, 1997.",
+      "source": "NASA Science - Mars Pathfinder",
+      "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": ["Mars", "Pathfinder", "Sojourner", "lander", "rover"]
+    },
+    {
+      "id": "insight_001",
+      "entity": "InSight Lander",
+      "category": "mission_overview",
+      "celestial_body": "Mars",
+      "content": "NASA's InSight lander touched down on Mars on November 26, 2018, at Elysium Planitia. Its mission was to study the planet's interior, including its crust, mantle, and core. It recorded more than 1,300 marsquakes. The mission ended in December 2022.",
+      "source": "NASA Science - InSight",
+      "source_url": "https://science.nasa.gov/mission/insight/",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": ["Mars", "InSight", "lander", "marsquakes", "interior"]
+    },
+    {
+      "id": "lrv_001",
+      "entity": "Lunar Roving Vehicle",
+      "category": "vehicle",
+      "celestial_body": "Moon",
+      "content": "The Lunar Roving Vehicle was a four-wheeled electric vehicle used by astronauts during Apollo 15, Apollo 16, and Apollo 17. It helped astronauts travel across the lunar surface and collect scientific samples and observations. It was first used during Apollo 15 in July 1971.",
+      "source": "NASA NSSDCA - Apollo Lunar Roving Vehicle",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": ["Moon", "Apollo", "LRV", "rover", "vehicle"]
+    },
+    {
+      "id": "apollo15_alsep_001",
+      "entity": "Apollo 15 ALSEP",
+      "category": "scientific_instruments",
+      "celestial_body": "Moon",
+      "content": "The Apollo 15 ALSEP was a group of scientific experiments deployed on the lunar surface during the Apollo 15 mission. Its seven experiments studied seismic activity, magnetic fields, solar wind, ions, heat flow, the lunar atmosphere, and dust-related effects. The ALSEP network was shut down on September 30, 1977.",
+      "source": "NASA Apollo 15 Press Kit",
+      "source_url": "https://www.nasa.gov/wp-content/uploads/static/apollo50th/pdf/A15_PressKit.pdf",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": ["Moon", "Apollo 15", "ALSEP", "experiments", "lunar science"]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "schema_version": "3.0-candidate",
+  "total_documents": 17,
+  "sources": [
+    "knowledge_base.json",
+    "knowledge_base_v2.json"
+  ],
+  "documents": [
+    {
+      "id": "mars_pathfinder_001",
+      "entity": "Mars Pathfinder",
+      "category": "mission_overview",
+      "celestial_body": "Mars",
+      "content": "Mars Pathfinder was a NASA mission that landed on Mars on July 4, 1997. It included the Carl Sagan Memorial Station lander and the Sojourner rover. Its goals included testing a low-cost landing system and studying the Martian atmosphere, weather, and geology. The last transmission was received on September 27, 1997.",
+      "source": "NASA Science - Mars Pathfinder",
+      "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Mars",
+        "Pathfinder",
+        "Sojourner",
+        "lander",
+        "rover"
+      ],
+      "record_id": "mars_pathfinder_001",
+      "record_type": "overview",
+      "origin_file": "knowledge_base.json"
+    },
+    {
+      "id": "insight_001",
+      "entity": "InSight Lander",
+      "category": "mission_overview",
+      "celestial_body": "Mars",
+      "content": "NASA's InSight lander touched down on Mars on November 26, 2018, at Elysium Planitia. Its mission was to study the planet's interior, including its crust, mantle, and core. It recorded more than 1,300 marsquakes. The mission ended in December 2022.",
+      "source": "NASA Science - InSight",
+      "source_url": "https://science.nasa.gov/mission/insight/",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Mars",
+        "InSight",
+        "lander",
+        "marsquakes",
+        "interior"
+      ],
+      "record_id": "insight_001",
+      "record_type": "overview",
+      "origin_file": "knowledge_base.json"
+    },
+    {
+      "id": "lrv_001",
+      "entity": "Lunar Roving Vehicle",
+      "category": "vehicle",
+      "celestial_body": "Moon",
+      "content": "The Lunar Roving Vehicle was a four-wheeled electric vehicle used by astronauts during Apollo 15, Apollo 16, and Apollo 17. It helped astronauts travel across the lunar surface and collect scientific samples and observations. It was first used during Apollo 15 in July 1971.",
+      "source": "NASA NSSDCA - Apollo Lunar Roving Vehicle",
+      "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Moon",
+        "Apollo",
+        "LRV",
+        "rover",
+        "vehicle"
+      ],
+      "record_id": "lrv_001",
+      "record_type": "overview",
+      "origin_file": "knowledge_base.json"
+    },
+    {
+      "id": "apollo15_alsep_001",
+      "entity": "Apollo 15 ALSEP",
+      "category": "scientific_instruments",
+      "celestial_body": "Moon",
+      "content": "The Apollo 15 ALSEP was a group of scientific experiments deployed on the lunar surface during the Apollo 15 mission. Its seven experiments studied seismic activity, magnetic fields, solar wind, ions, heat flow, the lunar atmosphere, and dust-related effects. The ALSEP network was shut down on September 30, 1977.",
+      "source": "NASA Apollo 15 Press Kit",
+      "source_url": "https://www.nasa.gov/wp-content/uploads/static/apollo50th/pdf/A15_PressKit.pdf",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Moon",
+        "Apollo 15",
+        "ALSEP",
+        "experiments",
+        "lunar science"
+      ],
+      "record_id": "apollo15_alsep_001",
+      "record_type": "overview",
+      "origin_file": "knowledge_base.json"
+    },
+    {
+      "fact_id": "MP001",
+      "entity": "Mars Pathfinder",
+      "category": "mission",
+      "attribute": "landing_date",
+      "value": "July 4, 1997",
+      "content": "Mars Pathfinder landed on Mars on July 4, 1997.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Mars",
+        "landing",
+        "date",
+        "Pathfinder"
+      ],
+      "record_id": "MP001",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "MP002",
+      "entity": "Mars Pathfinder",
+      "category": "mission",
+      "attribute": "components",
+      "value": [
+        "Pathfinder lander",
+        "Sojourner rover"
+      ],
+      "content": "The Mars Pathfinder mission included a lander and the Sojourner rover.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Mars",
+        "lander",
+        "Sojourner",
+        "rover"
+      ],
+      "record_id": "MP002",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "MP003",
+      "entity": "Mars Pathfinder",
+      "category": "mission",
+      "attribute": "mission_objective",
+      "value": "Study the Martian surface and atmosphere",
+      "content": "Mars Pathfinder investigated the Martian surface and atmosphere.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Mars",
+        "surface",
+        "atmosphere",
+        "science"
+      ],
+      "record_id": "MP003",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "IN001",
+      "entity": "InSight Lander",
+      "category": "mission",
+      "attribute": "landing_date",
+      "value": "November 26, 2018",
+      "content": "NASA's InSight lander touched down on Mars on November 26, 2018.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "InSight",
+        "Mars",
+        "landing",
+        "date"
+      ],
+      "record_id": "IN001",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "IN002",
+      "entity": "InSight Lander",
+      "category": "mission",
+      "attribute": "scientific_objective",
+      "value": "Study the interior of Mars",
+      "content": "InSight studied the interior structure of Mars, including its crust, mantle, and core.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "InSight",
+        "Mars",
+        "interior",
+        "crust",
+        "mantle",
+        "core"
+      ],
+      "record_id": "IN002",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "IN003",
+      "entity": "InSight Lander",
+      "category": "science",
+      "attribute": "marsquakes_recorded",
+      "value": "More than 1300",
+      "content": "InSight detected and recorded more than 1,300 seismic events on Mars.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "InSight",
+        "marsquakes",
+        "seismic",
+        "Mars"
+      ],
+      "record_id": "IN003",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "IN004",
+      "entity": "InSight Lander",
+      "category": "mission",
+      "attribute": "mission_end",
+      "value": "December 2022",
+      "content": "NASA ended the InSight mission in December 2022.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "InSight",
+        "mission",
+        "end",
+        "2022"
+      ],
+      "record_id": "IN004",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "LRV001",
+      "entity": "Lunar Roving Vehicle",
+      "category": "vehicle",
+      "attribute": "wheel_count",
+      "value": 4,
+      "content": "The Lunar Roving Vehicle was an electric vehicle with four wheels.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Moon",
+        "LRV",
+        "wheels",
+        "vehicle"
+      ],
+      "record_id": "LRV001",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "LRV002",
+      "entity": "Lunar Roving Vehicle",
+      "category": "vehicle",
+      "attribute": "purpose",
+      "value": "Transport astronauts and equipment across the lunar surface",
+      "content": "The Lunar Roving Vehicle helped astronauts travel across the Moon and carry equipment.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Moon",
+        "astronauts",
+        "transport",
+        "equipment"
+      ],
+      "record_id": "LRV002",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "LRV003",
+      "entity": "Lunar Roving Vehicle",
+      "category": "mission",
+      "attribute": "missions_used",
+      "value": [
+        "Apollo 15",
+        "Apollo 16",
+        "Apollo 17"
+      ],
+      "content": "The Lunar Roving Vehicle was used on the Apollo 15, Apollo 16, and Apollo 17 missions.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "LRV",
+        "Apollo 15",
+        "Apollo 16",
+        "Apollo 17"
+      ],
+      "record_id": "LRV003",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "LRV004",
+      "entity": "Lunar Roving Vehicle",
+      "category": "mission",
+      "attribute": "first_use",
+      "value": "Apollo 15, July 1971",
+      "content": "The Lunar Roving Vehicle was first used during Apollo 15 in July 1971.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "LRV",
+        "Apollo 15",
+        "1971",
+        "first use"
+      ],
+      "record_id": "LRV004",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "ALSEP001",
+      "entity": "Apollo 15 ALSEP",
+      "category": "science",
+      "attribute": "deployment",
+      "value": "Apollo 15 mission",
+      "content": "The Apollo 15 crew deployed the Apollo Lunar Surface Experiments Package on the Moon.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "Apollo 15",
+        "ALSEP",
+        "Moon",
+        "deployment"
+      ],
+      "record_id": "ALSEP001",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    },
+    {
+      "fact_id": "ALSEP002",
+      "entity": "Apollo 15 ALSEP",
+      "category": "science",
+      "attribute": "research_topics",
+      "value": [
+        "Lunar seismic activity",
+        "Lunar environment",
+        "Moon's interior"
+      ],
+      "content": "Apollo 15 ALSEP experiments investigated lunar seismic activity and properties of the lunar environment and interior.",
+      "source": "NASA",
+      "source_url": "",
+      "verification_status": "user_provided_pending_independent_review",
+      "language": "en",
+      "tags": [
+        "ALSEP",
+        "seismic",
+        "lunar science",
+        "Moon"
+      ],
+      "record_id": "ALSEP002",
+      "record_type": "fact",
+      "origin_file": "knowledge_base_v2.json"
+    }
+  ]
+}
